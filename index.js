@@ -21,6 +21,7 @@ function generateName(input) {
 
 function extractSourceMaps(asset, sourceMap) {
   if (!sourceMap) return;
+  return;
 
   sourceMap.sources = [asset.filePath];
 
