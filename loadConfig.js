@@ -42,9 +42,9 @@ exports.load = async function load({ config, options, logger }) {
 
     config.shouldInvalidateOnStartup();
 
-    if (contents.preprocess) {
+    /*if (contents.preprocess) {
       config.shouldReload();
-    }
+    }*/
   }
 
   if (contents.compiler) {
